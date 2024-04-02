@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nicklas\\Desktop\\GitHubRepos\\CS-Teaching\\CS-Teaching.csproj",
+      "projectUniqueName": "C:\\Users\\Nicklas\\Desktop\\Programmering\\GitHubRepos\\CS-Teaching\\CS-Teaching.csproj",
       "projectName": "CS-Teaching",
-      "projectPath": "C:\\Users\\Nicklas\\Desktop\\GitHubRepos\\CS-Teaching\\CS-Teaching.csproj",
+      "projectPath": "C:\\Users\\Nicklas\\Desktop\\Programmering\\GitHubRepos\\CS-Teaching\\CS-Teaching.csproj",
       "packagesPath": "C:\\Users\\Nicklas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nicklas\\Desktop\\GitHubRepos\\CS-Teaching\\obj\\",
+      "outputPath": "C:\\Users\\Nicklas\\Desktop\\Programmering\\GitHubRepos\\CS-Teaching\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Nicklas\\AppData\\Roaming\\NuGet\\NuGet.Config",
