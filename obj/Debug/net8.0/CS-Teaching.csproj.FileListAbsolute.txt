@@ -1,0 +1,15 @@
+c:\Users\Nicklas\Desktop\GitHubRepos\CS-Teaching\bin\Debug\net8.0\CS-Teaching.exe
+c:\Users\Nicklas\Desktop\GitHubRepos\CS-Teaching\bin\Debug\net8.0\CS-Teaching.deps.json
+c:\Users\Nicklas\Desktop\GitHubRepos\CS-Teaching\bin\Debug\net8.0\CS-Teaching.runtimeconfig.json
+c:\Users\Nicklas\Desktop\GitHubRepos\CS-Teaching\bin\Debug\net8.0\CS-Teaching.dll
+c:\Users\Nicklas\Desktop\GitHubRepos\CS-Teaching\bin\Debug\net8.0\CS-Teaching.pdb
+c:\Users\Nicklas\Desktop\GitHubRepos\CS-Teaching\obj\Debug\net8.0\CS-Teaching.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Nicklas\Desktop\GitHubRepos\CS-Teaching\obj\Debug\net8.0\CS-Teaching.AssemblyInfoInputs.cache
+c:\Users\Nicklas\Desktop\GitHubRepos\CS-Teaching\obj\Debug\net8.0\CS-Teaching.AssemblyInfo.cs
+c:\Users\Nicklas\Desktop\GitHubRepos\CS-Teaching\obj\Debug\net8.0\CS-Teaching.csproj.CoreCompileInputs.cache
+c:\Users\Nicklas\Desktop\GitHubRepos\CS-Teaching\obj\Debug\net8.0\CS-Teaching.sourcelink.json
+c:\Users\Nicklas\Desktop\GitHubRepos\CS-Teaching\obj\Debug\net8.0\CS-Teaching.dll
+c:\Users\Nicklas\Desktop\GitHubRepos\CS-Teaching\obj\Debug\net8.0\refint\CS-Teaching.dll
+c:\Users\Nicklas\Desktop\GitHubRepos\CS-Teaching\obj\Debug\net8.0\CS-Teaching.pdb
+c:\Users\Nicklas\Desktop\GitHubRepos\CS-Teaching\obj\Debug\net8.0\CS-Teaching.genruntimeconfig.cache
+c:\Users\Nicklas\Desktop\GitHubRepos\CS-Teaching\obj\Debug\net8.0\ref\CS-Teaching.dll
