@@ -6,14 +6,15 @@ namespace MyProgram
         // When declaring a member, you specify the access modifier of that member. (private by default)
         // This can be 5 different: public, private, protected, internal and protected internal.
         // The access modifier describes the level of encapsulation - If other classes and components can write or read the data.
-        // A member can be a variable/method/property.
+        // A member can be a variable/method/property - We also call a variable member for a field.
+        // Fields (meaning not a property), should not be public or protected for better encapsulation.
         
 
-        public string username;  // public variable    - Every class can access this data.
+        public string Username;   // public field       - Every class can access this data.
 
-        private string password; // private variable   - Only this class can access this data.
+        private string _Password; // private field      - Only this class can access this data.
 
-        protected int IQ;        // protected variable - This class and subclasses can access this data.
+        protected int IQ;         // protected field    - This class and subclasses can access this data.
 
         // We will look at internal later
 
@@ -22,29 +23,29 @@ namespace MyProgram
         // Making two methods that can be accessed in other classes that checks if a password is correct.
         // This way the data of password cannot be changed or viewed.
         // However, it is still possible to call these methods in other classes to check if a password is correct.
-        private bool isAuthenticated;
-        public bool Login(string aPassword)
+        private bool _IsAuthenticated;
+       
+        public bool Login(string password)
         {
-            if(password == aPassword)
+            if(_Password == password)
             {
-                isAuthenticated = true;
+                _IsAuthenticated = true;
             }
-            return isAuthenticated;
+            return _IsAuthenticated;
         }
 
         public bool GetIsAuthenticated()
         {
-            return isAuthenticated;
+            return _IsAuthenticated;
         }
 
 
         // Constructor
-        public AccessModifier(string aUsername, string aPassword, int aIQ)
+        public AccessModifier(string username, string password, int iQ)
         {
-            username = aUsername;
-            password = aPassword;
-            IQ       = aIQ;
+            Username  = username;
+            _Password = password;
+            IQ        = iQ;
         }
-
     }
 }
