@@ -20,6 +20,7 @@ namespace MyProgram
 
 
         // Next example of a property were we validate that age is between 0 and 110
+        // NOTE: naming convention - I use _ prefix for private fields.
         private int _Age = 10; // we initialize to 10 to see that the value is still 10, when trying to change Age to a value out of range.
         public int Age 
         {
