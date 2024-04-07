@@ -1,6 +1,6 @@
 namespace MyProgram
 {
-        class Property
+    class Property
     { 
         // Like you can use the private keyword to prevent outside access, you can instead use propeties.
         // Properties gives more control to the developer. 
@@ -18,9 +18,9 @@ namespace MyProgram
         // we will need to change every place where the field is accessed. 
         // Using properties from the start simplifies future refactoring.
 
-
         // Next example of a property were we validate that age is between 0 and 110
         // NOTE: naming convention - I use _ prefix for private fields.
+
         private int _Age = 10; // we initialize to 10 to see that the value is still 10, when trying to change Age to a value out of range.
         public int Age 
         {
