@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Nicklas\\.nuget\\packages\\": {}
+    "C:\\Users\\nhthy\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nicklas\\Desktop\\Programmering\\GitHubRepos\\CS-Teaching\\CS-Teaching.csproj",
+      "projectUniqueName": "C:\\Users\\nhthy\\OneDrive\\Desktop\\SocialSeatingProject\\CS-Teaching\\CS-Teaching.csproj",
       "projectName": "CS-Teaching",
-      "projectPath": "C:\\Users\\Nicklas\\Desktop\\Programmering\\GitHubRepos\\CS-Teaching\\CS-Teaching.csproj",
-      "packagesPath": "C:\\Users\\Nicklas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nicklas\\Desktop\\Programmering\\GitHubRepos\\CS-Teaching\\obj\\",
+      "projectPath": "C:\\Users\\nhthy\\OneDrive\\Desktop\\SocialSeatingProject\\CS-Teaching\\CS-Teaching.csproj",
+      "packagesPath": "C:\\Users\\nhthy\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\nhthy\\OneDrive\\Desktop\\SocialSeatingProject\\CS-Teaching\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Nicklas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\nhthy\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -66,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
