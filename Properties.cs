@@ -1,6 +1,6 @@
 namespace MyProgram
 {
-    class Property
+    public class Property
     { 
         // Like you can use the private keyword to prevent outside access, you can instead use propeties.
         // Properties gives more control to the developer. 

@@ -1,6 +1,6 @@
 namespace MyProgram
 {
-    class StringsAndLists
+    public class StringsAndLists
     {
         public void JustAnotherStringMethod()
         {

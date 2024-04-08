@@ -1,23 +1,35 @@
 namespace MyProgram
 {
-    class AccessModifier
+    public class AccessModifier
     {
 
         // When declaring a member, you specify the access modifier of that member. (private by default)
-        // This can be 5 different: public, private, protected, internal and protected internal.
+        // This can be 6 different: public, private, protected, internal, protected internal & private protected.
         // The access modifier describes the level of encapsulation - If other classes and components can write or read the data.
         // A member can be a variable/method/property - We also call a variable member for a field.
         // Fields (meaning not a property), should not be public or protected for better encapsulation.
         
 
-        public string Username;   // public field       - Every class can access this data.
+        public string Username;           // public field             - Every class can access this data.
 
-        private string _Password; // private field      - Only this class can access this data.
+        private string _Password;         // private field            - Only this class can access this data.
 
-        protected int IQ;         // protected field    - This class and subclasses can access this data.
+        protected int IQ;                 // protected field          - This class and subclasses can access this data.
 
-        // We will look at internal later
+        internal int Rating;              // internal field           - This assembly
 
+        protected internal int Rating2;   // protected internal field - This assembly OR this class and subclasses.
+
+        private protected int Rating3;    // private protected field  - This is a private protected field.
+                                          // This class or subclasses within the same assembly.
+     
+
+        // What is an assembly? - It could be a DLL file or an executable (EXE) file that contains your classes, methods, 
+        // and other program elements, along with metadata. This assembly encompasses all the compiled code, resources, 
+        // and metadata needed for your application to run. 
+        // Depending on your development environment and settings, this assembly might be generated when you build your project.
+        // The assembly in this case is CS-Teaching.dll and CS-Teaching.exe, which are found in bin\debug\net8.0
+        // The reason it is found in a debugging folder, is because the default configuration is debug.
 
 
         // Making two methods that can be accessed in other classes that checks if a password is correct.

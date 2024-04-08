@@ -1,6 +1,6 @@
 ﻿namespace MyProgram
 {
-        class Program
+        public class Program
     {
         static void Main(string[] args)
         {
@@ -25,7 +25,7 @@
                 Console.WriteLine(ex.Message);
             }
 
-            Console.WriteLine("End of Program");
+            Console.WriteLine("End of Program"); 
         }
     }
 }
