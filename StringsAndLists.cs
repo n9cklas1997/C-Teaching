@@ -38,7 +38,13 @@ namespace MyProgram
                 }
 
             // Array = fixed in size
-            // List  = can change the size    
+            // List  = can change the size
+
+            // Command-line arguments for example: dotnet run 666 420
+            // NOTE: In C, the first element argv[0] contained the name of the program.
+            // Here args[0] is the first command-line argument, which would be argv[1] in C.
+            // Console.WriteLine("First argument is: " + args[0]);
+            // Console.WriteLine("Second argument is: " + args[1])    
         }
     }
 }
