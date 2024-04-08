@@ -14,7 +14,6 @@
             Console.WriteLine("Enter a another number");
             userInput = Console.ReadLine();
             b = Int32.Parse(userInput); // Same as int.Parse()
-
             
             try
             {
@@ -25,9 +24,6 @@
             {
                 Console.WriteLine(ex.Message);
             }
-            
-
-            
 
             Console.WriteLine("End of Program");
         }
