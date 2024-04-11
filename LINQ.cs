@@ -21,8 +21,10 @@ namespace MyProgram
             where RandomInteger > 40
             select RandomInteger;
 
+        // After where, you could for example have: orderby RandomInteger ascending/descending to sort the list in the query
+
         // Executing the IEnumerable. (Asking the question - A query isn't executed until you iterate over the query variable)
-        foreach (var i in IntegersAboveForty)
+        foreach (int i in IntegersAboveForty)
             {
                 Console.Write(i + " ");
             }
@@ -36,10 +38,16 @@ namespace MyProgram
             where RandomString.Length == 4
             select RandomString;
 
-        foreach (var i in StringsLengthOf4)
+        foreach (string s in StringsLengthOf4)
             {
-                Console.Write(i + " ");
+                Console.Write(s + " ");
             }
         }
+
+        // You might see a different way of implementing an IEnumerable. This is called a lambda expressions. => means "such that"
+        // This way uses less lines of code, but is not as readable.
+        // Note (OrderBy is default ascending)
+        IEnumerable<string> StringsLengthOf4 = RandomStrings.Where(s => s.Length == 4)
+                                                            .OrderBy(s => s);
     }
 }

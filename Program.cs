@@ -9,14 +9,12 @@ namespace MyProgram
          
         List<string> RandomStrings = ["Yolo", "Swag", "Dude", "Where", "Is", "My", "Car"];
 
-        IEnumerable<string> StringsLengthOf4 =
-            from RandomString in RandomStrings
-            where RandomString.Length == 4
-            select RandomString;
+        IEnumerable<string> StringsLengthOf4 = RandomStrings.Where(s => s.Length == 4)
+                                                            .OrderByDescending(s => s);
 
-        foreach (var i in StringsLengthOf4)
+        foreach (string s in StringsLengthOf4)
             {
-                Console.Write(i + " ");
+                Console.Write(s + " ");
             }
         }
     }
