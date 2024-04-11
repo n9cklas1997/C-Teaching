@@ -1,20 +1,22 @@
-﻿namespace MyProgram
+﻿using System.Linq;
+
+namespace MyProgram
 {
         public class Program
     {
         static void Main(string[] args)
         {
-            RandomIntegers List<int> = {8, 32, 11, 3, 67, 1092, 44}
+         
+        List<string> RandomStrings = ["Yolo", "Swag", "Dude", "Where", "Is", "My", "Car"];
 
-            IEnumerable<int> IntegersAboveForty =
-                from RandomInteger in RandomIntegers
-                where RandomInteger > 40
-                select RandomInteger;
+        IEnumerable<string> StringsLengthOf4 =
+            from RandomString in RandomStrings
+            where RandomString.Length == 4
+            select RandomString;
 
-        
-            foreach (var i in IntegersAboveForty)
+        foreach (var i in StringsLengthOf4)
             {
-                Console.Write(i + " ")
+                Console.Write(i + " ");
             }
         }
     }
