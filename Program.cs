@@ -7,14 +7,23 @@ namespace MyProgram
         static void Main(string[] args)
         {
          
-        List<string> RandomStrings = ["Yolo", "Swag", "Dude", "Where", "Is", "My", "Car"];
+        // Making a list of integers
+        List<int> RandomIntegers = [8, 44, 32, 11, 3, 67, 1092, 44];
 
-        IEnumerable<string> StringsLengthOf4 = RandomStrings.Where(s => s.Length == 4)
-                                                            .OrderByDescending(s => s);
+        // Making an IEnumerable of integers. (Defining the question - what do we want?)
+        IEnumerable<int> IntegersAboveForty =
+           (from RandomInteger in RandomIntegers
+            where RandomInteger > 40
+            select RandomInteger).Distinct();
 
-        foreach (string s in StringsLengthOf4)
+        // After where, you could for example have: orderby RandomInteger ascending/descending to sort the list in the query
+        // You can also apply methods to the query itself. For example we put the query inside (), and then we say .Distinct().
+        // The Distinct method takes only unique examples in the list.
+
+        // Executing the IEnumerable. (Asking the question - A query isn't executed until you iterate over the query variable)
+        foreach (int i in IntegersAboveForty)
             {
-                Console.Write(s + " ");
+                Console.Write(i + " ");
             }
         }
     }
