@@ -4,28 +4,18 @@
     {
         static void Main(string[] args)
         {
-            int a = 0, b = 0, result = 0;
-            string userInput;
+            RandomIntegers List<int> = {8, 32, 11, 3, 67, 1092, 44}
 
-            Console.WriteLine("Enter a number");
-            userInput = Console.ReadLine(); // Remember Readline returns a string, so we have to convert to an integer.
-            a = int.Parse(userInput); // Using TryParse() instead could avoid throwing exceptions
-         
-            Console.WriteLine("Enter a another number");
-            userInput = Console.ReadLine();
-            b = Int32.Parse(userInput); // Same as int.Parse()
-            
-            try
-            {
-                result = ExceptionHandling.Division(a, b);
-                Console.WriteLine(result);
-            }
-            catch(Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
+            IEnumerable<int> IntegersAboveForty =
+                from RandomInteger in RandomIntegers
+                where RandomInteger > 40
+                select RandomInteger;
 
-            Console.WriteLine("End of Program"); 
+        
+            foreach (var i in IntegersAboveForty)
+            {
+                Console.Write(i + " ")
+            }
         }
     }
 }
